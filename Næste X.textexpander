@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groupInfo</key>
+	<dict>
+		<key>expandAfterMode</key>
+		<integer>0</integer>
+		<key>groupName</key>
+		<string>Næste X</string>
+		<key>notes</key>
+		<string></string>
+	</dict>
+	<key>snippetsTE2</key>
+	<array>
+		<dict>
+			<key>plainText</key>
+			<string>This group was saved with a newer version of TextExpander.
+Update to the current version of TextExpander to read the 10 snippets in this group.
+If you need to read the group with an older version of TextExpander, use TextExpander.com to export the group in comma-separated value (CSV) format.</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>snippetsTE3</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>javascriptStrftime_da</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2015-05-31T12:59:22Z</date>
+			<key>extraInfo</key>
+			<dict>
+				<key>jsonStr</key>
+				<string>{"nodes":[{"e":"tx","tx":"// strftime for JS &lt;http://hacks.bluesmoon.info/strftime/&gt;"},{"e":"br"},{"e":"tx","tx":"Date.prototype.locale = 'da-DK';"},{"e":"br"},{"e":"tx","tx":"Date.ext = {};"},{"e":"br"},{"e":"tx","tx":"Date.ext.util = {};"},{"e":"br"},{"e":"br"},{"e":"tx","tx":"Date.ext.util.xPad=function(x, pad, r)"},{"e":"br"},{"e":"tx","tx":"{"},{"e":"br"},{"e":"tx","tx":"  if(typeof(r) == 'undefined')"},{"e":"br"},{"e":"tx","tx":"  {"},{"e":"br"},{"e":"tx","tx":"    r=10;"},{"e":"br"},{"e":"tx","tx":"  }"},{"e":"br"},{"e":"tx","tx":"  for( ; parseInt(x, 10)&lt;r &amp;&amp; r&gt;1; r/=10)"},{"e":"br"},{"e":"tx","tx":"    x = pad.toString() + x;"},{"e":"br"},{"e":"tx","tx":"  return x.toString();"},{"e":"br"},{"e":"tx","tx":"};"},{"e":"br"},{"e":"br"},{"e":"tx","tx":"Date.ext.locales = { };"},{"e":"br"},{"e":"tx","tx":"Date.ext.locales.en = {"},{"e":"br"},{"e":"tx","tx":"  a: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],"},{"e":"br"},{"e":"tx","tx":"  A: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],"},{"e":"br"},{"e":"tx","tx":"  b: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],"},{"e":"br"},{"e":"tx","tx":"  B: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],"},{"e":"br"},{"e":"tx","tx":"  c: '%a %d %b %Y %T %Z',"},{"e":"br"},{"e":"tx","tx":"  p: ['AM', 'PM'],"},{"e":"br"},{"e":"tx","tx":"  P: ['am', 'pm'],"},{"e":"br"},{"e":"tx","tx":"  x: '%d/%m/%y',"},{"e":"br"},{"e":"tx","tx":"  X: '%T'"},{"e":"br"},{"e":"tx","tx":"};"},{"e":"br"},{"e":"tx","tx":"Date.ext.locales.da = {"},{"e":"br"},{"e":"tx","tx":"  a: ['søn', 'man', 'tir', 'ons', 'tor', 'fre', 'lør'],"},{"e":"br"},{"e":"tx","tx":"  A: ['søndag', 'mandag', 'tirsdag', 'onsdag', 'torsdag', 'fredag', 'lørdag'],"},{"e":"br"},{"e":"tx","tx":"  b: ['jan', 'feb', 'mar', 'apr', 'maj', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'dec'],"},{"e":"br"},{"e":"tx","tx":"  B: ['januar', 'februar', 'marts', 'april', 'maj', 'juni', 'juli', 'august', 'september', 'oktober', 'november', 'december'],"},{"e":"br"},{"e":"tx","tx":"  c: '%a %e %b %Y %T %Z',"},{"e":"br"},{"e":"tx","tx":"  p: ['', ''],"},{"e":"br"},{"e":"tx","tx":"  P: ['', ''],"},{"e":"br"},{"e":"tx","tx":"  x: '%d-%m-%y',"},{"e":"br"},{"e":"tx","tx":"  X: '%T'"},{"e":"br"},{"e":"tx","tx":"};"},{"e":"br"},{"e":"tx","tx":"Date.ext.locales['da-DK'] = Date.ext.locales.da;"},{"e":"br"},{"e":"tx","tx":"Date.ext.locales['en-US'] = Date.ext.locales.en;"},{"e":"br"},{"e":"tx","tx":"Date.ext.locales['en-US'].c = '%a %d %b %Y %r %Z';"},{"e":"br"},{"e":"tx","tx":"Date.ext.locales['en-US'].x = '%D';"},{"e":"br"},{"e":"tx","tx":"Date.ext.locales['en-US'].X = '%r';"},{"e":"br"},{"e":"tx","tx":"Date.ext.locales['en-GB'] = Date.ext.locales.en;"},{"e":"br"},{"e":"tx","tx":"Date.ext.locales['en-AU'] = Date.ext.locales['en-GB'];"},{"e":"br"},{"e":"br"},{"e":"tx","tx":"Date.ext.formats = {"},{"e":"br"},{"e":"tx","tx":"  a: function(d) { return Date.ext.locales[d.locale].a[d.getDay()]; },"},{"e":"br"},{"e":"tx","tx":"  A: function(d) { return Date.ext.locales[d.locale].A[d.getDay()]; },"},{"e":"br"},{"e":"tx","tx":"  b: function(d) { return Date.ext.locales[d.locale].b[d.getMonth()]; },"},{"e":"br"},{"e":"tx","tx":"  B: function(d) { return Date.ext.locales[d.locale].B[d.getMonth()]; },"},{"e":"br"},{"e":"tx","tx":"  c: 'toLocaleString',"},{"e":"br"},{"e":"tx","tx":"  C: function(d) { return Date.ext.util.xPad(parseInt(d.getFullYear()/100, 10), 0); },"},{"e":"br"},{"e":"tx","tx":"  d: ['getDate', '0'],"},{"e":"br"},{"e":"tx","tx":"  e: ['getDate', ''],"},{"e":"br"},{"e":"tx","tx":"//** \"\"\" e: ['getDate', ' '], \"\"\" space fjernet for at datoer med et ciffer ikke havde mellemrum før tallet **//"},{"e":"br"},{"e":"tx","tx":"  g: function(d) { return Date.ext.util.xPad(parseInt(Date.ext.util.G(d)/100, 10), 0); },"},{"e":"br"},{"e":"tx","tx":"  G: function(d) {"},{"e":"br"},{"e":"tx","tx":"      var y = d.getFullYear();"},{"e":"br"},{"e":"tx","tx":"      var V = parseInt(Date.ext.formats.V(d), 10);"},{"e":"br"},{"e":"tx","tx":"      var W = parseInt(Date.ext.formats.W(d), 10);"},{"e":"br"},{"e":"br"},{"e":"tx","tx":"      if(W &gt; V) {"},{"e":"br"},{"e":"tx","tx":"        y++;"},{"e":"br"},{"e":"tx","tx":"      } else if(W===0 &amp;&amp; V&gt;=52) {"},{"e":"br"},{"e":"tx","tx":"        y--;"},{"e":"br"},{"e":"tx","tx":"      }"},{"e":"br"},{"e":"br"},{"e":"tx","tx":"      return y;"},{"e":"br"},{"e":"tx","tx":"    },"},{"e":"br"},{"e":"tx","tx":"  H: ['getHours', '0'],"},{"e":"br"},{"e":"tx","tx":"  I: function(d) { var I=d.getHours()%12; return Date.ext.util.xPad(I===0?12:I, 0); },"},{"e":"br"},{"e":"tx","tx":"  j: function(d) {"},{"e":"br"},{"e":"tx","tx":"      var ms = d - new Date('' + d.getFullYear() + '/1/1 GMT');"},{"e":"br"},{"e":"tx","tx":"      ms += d.getTimezoneOffset()*60000;"},{"e":"br"},{"e":"tx","tx":"      var doy = parseInt(ms/60000/60/24, 10)+1;"},{"e":"br"},{"e":"tx","tx":"      return Date.ext.util.xPad(doy, 0, 100);"},{"e":"br"},{"e":"tx","tx":"    },"},{"e":"br"},{"e":"tx","tx":"  m: function(d) { return Date.ext.util.xPad(d.getMonth()+1, 0); },"},{"e":"br"},{"e":"tx","tx":"  M: ['getMinutes', '0'],"},{"e":"br"},{"e":"tx","tx":"  p: function(d) { return Date.ext.locales[d.locale].p[d.getHours() &gt;= 12 ? 1 : 0 ]; },"},{"e":"br"},{"e":"tx","tx":"  P: function(d) { return Date.ext.locales[d.locale].P[d.getHours() &gt;= 12 ? 1 : 0 ]; },"},{"e":"br"},{"e":"tx","tx":"  S: ['getSeconds', '0'],"},{"e":"br"},{"e":"tx","tx":"  u: function(d) { var dow = d.getDay(); return dow===0?7:dow; },"},{"e":"br"},{"e":"tx","tx":"  U: function(d) {"},{"e":"br"},{"e":"tx","tx":"      var doy = parseInt(Date.ext.formats.j(d), 10);"},{"e":"br"},{"e":"tx","tx":"      var rdow = 6-d.getDay();"},{"e":"br"},{"e":"tx","tx":"      var woy = parseInt((doy+rdow)/7, 10);"},{"e":"br"},{"e":"tx","tx":"      return Date.ext.util.xPad(woy, 0);"},{"e":"br"},{"e":"tx","tx":"    },"},{"e":"br"},{"e":"tx","tx":"  V: function(d) {"},{"e":"br"},{"e":"tx","tx":"      var woy = parseInt(Date.ext.formats.W(d), 10);"},{"e":"br"},{"e":"tx","tx":"      var dow1_1 = (new Date('' + d.getFullYear() + '/1/1')).getDay();"},{"e":"br"},{"e":"tx","tx":"      // First week is 01 and not 00 as in the case of %U and %W,"},{"e":"br"},{"e":"tx","tx":"      // so we add 1 to the final result except if day 1 of the year"},{"e":"br"},{"e":"tx","tx":"      // is a Monday (then %W returns 01)."},{"e":"br"},{"e":"tx","tx":"      // We also need to subtract 1 if the day 1 of the year is"},{"e":"br"},{"e":"tx","tx":"      // Friday-Sunday, so the resulting equation becomes:"},{"e":"br"},{"e":"tx","tx":"      var idow = woy + (dow1_1 &gt; 4 || dow1_1 &lt;= 1 ? 0 : 1);"},{"e":"br"},{"e":"tx","tx":"      if(idow == 53 &amp;&amp; (new Date('' + d.getFullYear() + '/12/31')).getDay() &lt; 4)"},{"e":"br"},{"e":"tx","tx":"      {"},{"e":"br"},{"e":"tx","tx":"        idow = 1;"},{"e":"br"},{"e":"tx","tx":"      }"},{"e":"br"},{"e":"tx","tx":"      else if(idow === 0)"},{"e":"br"},{"e":"tx","tx":"      {"},{"e":"br"},{"e":"tx","tx":"        idow = Date.ext.formats.V(new Date('' + (d.getFullYear()-1) + '/12/31'));"},{"e":"br"},{"e":"tx","tx":"      }"},{"e":"br"},{"e":"br"},{"e":"tx","tx":"      return Date.ext.util.xPad(idow, 0);"},{"e":"br"},{"e":"tx","tx":"    },"},{"e":"br"},{"e":"tx","tx":"  w: 'getDay',"},{"e":"br"},{"e":"tx","tx":"  W: function(d) {"},{"e":"br"},{"e":"tx","tx":"      var doy = parseInt(Date.ext.formats.j(d), 10);"},{"e":"br"},{"e":"tx","tx":"      var rdow = 7-Date.ext.formats.u(d);"},{"e":"br"},{"e":"tx","tx":"      var woy = parseInt((doy+rdow)/7, 10);"},{"e":"br"},{"e":"tx","tx":"      return Date.ext.util.xPad(woy, 0, 10);"},{"e":"br"},{"e":"tx","tx":"    },"},{"e":"br"},{"e":"tx","tx":"  y: function(d) { return Date.ext.util.xPad(d.getFullYear()%100, 0); },"},{"e":"br"},{"e":"tx","tx":"  Y: 'getFullYear',"},{"e":"br"},{"e":"tx","tx":"  z: function(d) {"},{"e":"br"},{"e":"tx","tx":"      var o = d.getTimezoneOffset();"},{"e":"br"},{"e":"tx","tx":"      var H = Date.ext.util.xPad(parseInt(Math.abs(o/60), 10), 0);"},{"e":"br"},{"e":"tx","tx":"      var M = Date.ext.util.xPad(o%60, 0);"},{"e":"br"},{"e":"tx","tx":"      return (o&gt;0?'-':'+') + H + M;"},{"e":"br"},{"e":"tx","tx":"    },"},{"e":"br"},{"e":"tx","tx":"  Z: function(d) { return d.toString().replace(/^.*\\(([^)]+)\\)$/, '$1'); },"},{"e":"br"},{"e":"tx","tx":"  '%': function(d) { return '%'; }"},{"e":"br"},{"e":"tx","tx":"};"},{"e":"br"},{"e":"tx","tx":"Date.ext.aggregates = {"},{"e":"br"},{"e":"tx","tx":"  c: 'locale',"},{"e":"br"},{"e":"tx","tx":"  D: '%m/%d/%y',"},{"e":"br"},{"e":"tx","tx":"  h: '%b',"},{"e":"br"},{"e":"tx","tx":"  n: '\\n',"},{"e":"br"},{"e":"tx","tx":"  r: '%I:%M:%S %p',"},{"e":"br"},{"e":"tx","tx":"  R: '%H:%M',"},{"e":"br"},{"e":"tx","tx":"  t: '\\t',"},{"e":"br"},{"e":"tx","tx":"  T: '%H:%M:%S',"},{"e":"br"},{"e":"tx","tx":"  x: 'locale',"},{"e":"br"},{"e":"tx","tx":"  X: 'locale'"},{"e":"br"},{"e":"tx","tx":"};"},{"e":"br"},{"e":"tx","tx":"Date.ext.aggregates.z = Date.ext.formats.z(new Date());"},{"e":"br"},{"e":"tx","tx":"Date.ext.aggregates.Z = Date.ext.formats.Z(new Date());"},{"e":"br"},{"e":"tx","tx":"Date.ext.unsupported = { };"},{"e":"br"},{"e":"tx","tx":"Date.prototype.strftime=function(fmt)"},{"e":"br"},{"e":"tx","tx":"{"},{"e":"br"},{"e":"tx","tx":"  if(!(this.locale in Date.ext.locales))"},{"e":"br"},{"e":"tx","tx":"  {"},{"e":"br"},{"e":"tx","tx":"    if(this.locale.replace(/-[a-zA-Z]+$/, '') in Date.ext.locales)"},{"e":"br"},{"e":"tx","tx":"    {"},{"e":"br"},{"e":"tx","tx":"      this.locale = this.locale.replace(/-[a-zA-Z]+$/, '');"},{"e":"br"},{"e":"tx","tx":"    }"},{"e":"br"},{"e":"tx","tx":"    else"},{"e":"br"},{"e":"tx","tx":"    {"},{"e":"br"},{"e":"tx","tx":"      this.locale = 'en-GB';"},{"e":"br"},{"e":"tx","tx":"    }"},{"e":"br"},{"e":"tx","tx":"  }"},{"e":"br"},{"e":"br"},{"e":"tx","tx":"  var d = this;"},{"e":"br"},{"e":"tx","tx":"  while(fmt.match(/%[cDhnrRtTxXzZ]/))"},{"e":"br"},{"e":"tx","tx":"  {"},{"e":"br"},{"e":"tx","tx":"    fmt = fmt.replace(/%([cDhnrRtTxXzZ])/g, function(m0, m1)"},{"e":"br"},{"e":"tx","tx":"        {"},{"e":"br"},{"e":"tx","tx":"          var f = Date.ext.aggregates[m1];"},{"e":"br"},{"e":"tx","tx":"          return (f == 'locale' ? Date.ext.locales[d.locale][m1] : f);"},{"e":"br"},{"e":"tx","tx":"        });"},{"e":"br"},{"e":"tx","tx":"  }"},{"e":"br"},{"e":"br"},{"e":"tx","tx":"  var str = fmt.replace(/%([aAbBCdegGHIjmMpPSuUVwWyY%])/g, function(m0, m1)"},{"e":"br"},{"e":"tx","tx":"      {"},{"e":"br"},{"e":"tx","tx":"        var f = Date.ext.formats[m1];"},{"e":"br"},{"e":"tx","tx":"        if(typeof(f) == 'string') {"},{"e":"br"},{"e":"tx","tx":"          return d[f]();"},{"e":"br"},{"e":"tx","tx":"        } else if(typeof(f) == 'function') {"},{"e":"br"},{"e":"tx","tx":"          return f.call(d, d);"},{"e":"br"},{"e":"tx","tx":"        } else if(typeof(f) == 'object' &amp;&amp; typeof(f[0]) == 'string') {"},{"e":"br"},{"e":"tx","tx":"          return Date.ext.util.xPad(d[f[0]](), f[1]);"},{"e":"br"},{"e":"tx","tx":"        } else {"},{"e":"br"},{"e":"tx","tx":"          return m1;"},{"e":"br"},{"e":"tx","tx":"        }"},{"e":"br"},{"e":"tx","tx":"      });"},{"e":"br"},{"e":"tx","tx":"  d=null;"},{"e":"br"},{"e":"tx","tx":"  return str;"},{"e":"br"},{"e":"tx","tx":"};"},{"e":"br"},{"e":"br"},{"e":"br"},{"e":"tx","tx":"function getNextDay(day, resetTime){"},{"e":"br"},{"e":"tx","tx":"  day = day.slice(0,3).toLowerCase();"},{"e":"br"},{"e":"tx","tx":"  var days = {"},{"e":"br"},{"e":"tx","tx":"    søn: 0, man: 1, tir: 2,"},{"e":"br"},{"e":"tx","tx":"    ons: 3, tor: 4, fre: 5, lør: 6,"},{"e":"br"},{"e":"tx","tx":"  };"},{"e":"br"},{"e":"br"},{"e":"tx","tx":"  var dayIndex = days[day];"},{"e":"br"},{"e":"tx","tx":"  if (dayIndex &lt; 0 || dayIndex &gt; 6) {"},{"e":"br"},{"e":"tx","tx":"    throw new Error('\"' + day + '\" is not a valid input.');"},{"e":"br"},{"e":"tx","tx":"  }"},{"e":"br"},{"e":"br"},{"e":"tx","tx":"  var returnDate = new Date();"},{"e":"br"},{"e":"tx","tx":"  var returnDay = returnDate.getDay();"},{"e":"br"},{"e":"tx","tx":"  if (dayIndex !== returnDay) {"},{"e":"br"},{"e":"tx","tx":"    returnDate.setDate(returnDate.getDate() + (dayIndex + (7 - returnDay)) % 7);"},{"e":"br"},{"e":"tx","tx":"  } else {"},{"e":"br"},{"e":"tx","tx":"    returnDate.setDate(returnDate.getDate() + 7);"},{"e":"br"},{"e":"tx","tx":"  }"},{"e":"br"},{"e":"br"},{"e":"tx","tx":"  if (resetTime) {"},{"e":"br"},{"e":"tx","tx":"    returnDate.setHours(0);"},{"e":"br"},{"e":"tx","tx":"    returnDate.setMinutes(0);"},{"e":"br"},{"e":"tx","tx":"    returnDate.setSeconds(0);"},{"e":"br"},{"e":"tx","tx":"    returnDate.setMilliseconds(0);"},{"e":"br"},{"e":"tx","tx":"  }"},{"e":"br"},{"e":"tx","tx":"  return returnDate;"},{"e":"br"},{"e":"tx","tx":"}"}],"v":{"c":1,"m":1}}</string>
+			</dict>
+			<key>label</key>
+			<string>strftime</string>
+			<key>modificationDate</key>
+			<date>2020-02-23T22:35:43Z</date>
+			<key>plainText</key>
+			<string>// strftime for JS &lt;http://hacks.bluesmoon.info/strftime/&gt;
+Date.prototype.locale = 'da-DK';
+Date.ext = {};
+Date.ext.util = {};
+
+Date.ext.util.xPad=function(x, pad, r)
+{
+  if(typeof(r) == 'undefined')
+  {
+    r=10;
+  }
+  for( ; parseInt(x, 10)&lt;r &amp;&amp; r&gt;1; r/=10)
+    x = pad.toString() + x;
+  return x.toString();
+};
+
+Date.ext.locales = { };
+Date.ext.locales.en = {
+  a: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+  A: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+  b: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+  B: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+  c: '%a %d %b %Y %T %Z',
+  p: ['AM', 'PM'],
+  P: ['am', 'pm'],
+  x: '%d/%m/%y',
+  X: '%T'
+};
+Date.ext.locales.da = {
+  a: ['søn', 'man', 'tir', 'ons', 'tor', 'fre', 'lør'],
+  A: ['søndag', 'mandag', 'tirsdag', 'onsdag', 'torsdag', 'fredag', 'lørdag'],
+  b: ['jan', 'feb', 'mar', 'apr', 'maj', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'dec'],
+  B: ['januar', 'februar', 'marts', 'april', 'maj', 'juni', 'juli', 'august', 'september', 'oktober', 'november', 'december'],
+  c: '%a %e %b %Y %T %Z',
+  p: ['', ''],
+  P: ['', ''],
+  x: '%d-%m-%y',
+  X: '%T'
+};
+Date.ext.locales['da-DK'] = Date.ext.locales.da;
+Date.ext.locales['en-US'] = Date.ext.locales.en;
+Date.ext.locales['en-US'].c = '%a %d %b %Y %r %Z';
+Date.ext.locales['en-US'].x = '%D';
+Date.ext.locales['en-US'].X = '%r';
+Date.ext.locales['en-GB'] = Date.ext.locales.en;
+Date.ext.locales['en-AU'] = Date.ext.locales['en-GB'];
+
+Date.ext.formats = {
+  a: function(d) { return Date.ext.locales[d.locale].a[d.getDay()]; },
+  A: function(d) { return Date.ext.locales[d.locale].A[d.getDay()]; },
+  b: function(d) { return Date.ext.locales[d.locale].b[d.getMonth()]; },
+  B: function(d) { return Date.ext.locales[d.locale].B[d.getMonth()]; },
+  c: 'toLocaleString',
+  C: function(d) { return Date.ext.util.xPad(parseInt(d.getFullYear()/100, 10), 0); },
+  d: ['getDate', '0'],
+  e: ['getDate', ''],
+//** """ e: ['getDate', ' '], """ space fjernet for at datoer med et ciffer ikke havde mellemrum før tallet **//
+  g: function(d) { return Date.ext.util.xPad(parseInt(Date.ext.util.G(d)/100, 10), 0); },
+  G: function(d) {
+      var y = d.getFullYear();
+      var V = parseInt(Date.ext.formats.V(d), 10);
+      var W = parseInt(Date.ext.formats.W(d), 10);
+
+      if(W &gt; V) {
+        y++;
+      } else if(W===0 &amp;&amp; V&gt;=52) {
+        y--;
+      }
+
+      return y;
+    },
+  H: ['getHours', '0'],
+  I: function(d) { var I=d.getHours()%12; return Date.ext.util.xPad(I===0?12:I, 0); },
+  j: function(d) {
+      var ms = d - new Date('' + d.getFullYear() + '/1/1 GMT');
+      ms += d.getTimezoneOffset()*60000;
+      var doy = parseInt(ms/60000/60/24, 10)+1;
+      return Date.ext.util.xPad(doy, 0, 100);
+    },
+  m: function(d) { return Date.ext.util.xPad(d.getMonth()+1, 0); },
+  M: ['getMinutes', '0'],
+  p: function(d) { return Date.ext.locales[d.locale].p[d.getHours() &gt;= 12 ? 1 : 0 ]; },
+  P: function(d) { return Date.ext.locales[d.locale].P[d.getHours() &gt;= 12 ? 1 : 0 ]; },
+  S: ['getSeconds', '0'],
+  u: function(d) { var dow = d.getDay(); return dow===0?7:dow; },
+  U: function(d) {
+      var doy = parseInt(Date.ext.formats.j(d), 10);
+      var rdow = 6-d.getDay();
+      var woy = parseInt((doy+rdow)/7, 10);
+      return Date.ext.util.xPad(woy, 0);
+    },
+  V: function(d) {
+      var woy = parseInt(Date.ext.formats.W(d), 10);
+      var dow1_1 = (new Date('' + d.getFullYear() + '/1/1')).getDay();
+      // First week is 01 and not 00 as in the case of %U and %W,
+      // so we add 1 to the final result except if day 1 of the year
+      // is a Monday (then %W returns 01).
+      // We also need to subtract 1 if the day 1 of the year is
+      // Friday-Sunday, so the resulting equation becomes:
+      var idow = woy + (dow1_1 &gt; 4 || dow1_1 &lt;= 1 ? 0 : 1);
+      if(idow == 53 &amp;&amp; (new Date('' + d.getFullYear() + '/12/31')).getDay() &lt; 4)
+      {
+        idow = 1;
+      }
+      else if(idow === 0)
+      {
+        idow = Date.ext.formats.V(new Date('' + (d.getFullYear()-1) + '/12/31'));
+      }
+
+      return Date.ext.util.xPad(idow, 0);
+    },
+  w: 'getDay',
+  W: function(d) {
+      var doy = parseInt(Date.ext.formats.j(d), 10);
+      var rdow = 7-Date.ext.formats.u(d);
+      var woy = parseInt((doy+rdow)/7, 10);
+      return Date.ext.util.xPad(woy, 0, 10);
+    },
+  y: function(d) { return Date.ext.util.xPad(d.getFullYear()%100, 0); },
+  Y: 'getFullYear',
+  z: function(d) {
+      var o = d.getTimezoneOffset();
+      var H = Date.ext.util.xPad(parseInt(Math.abs(o/60), 10), 0);
+      var M = Date.ext.util.xPad(o%60, 0);
+      return (o&gt;0?'-':'+') + H + M;
+    },
+  Z: function(d) { return d.toString().replace(/^.*\(([^)]+)\)$/, '$1'); },
+  '%': function(d) { return '%'; }
+};
+Date.ext.aggregates = {
+  c: 'locale',
+  D: '%m/%d/%y',
+  h: '%b',
+  n: '\n',
+  r: '%I:%M:%S %p',
+  R: '%H:%M',
+  t: '\t',
+  T: '%H:%M:%S',
+  x: 'locale',
+  X: 'locale'
+};
+Date.ext.aggregates.z = Date.ext.formats.z(new Date());
+Date.ext.aggregates.Z = Date.ext.formats.Z(new Date());
+Date.ext.unsupported = { };
+Date.prototype.strftime=function(fmt)
+{
+  if(!(this.locale in Date.ext.locales))
+  {
+    if(this.locale.replace(/-[a-zA-Z]+$/, '') in Date.ext.locales)
+    {
+      this.locale = this.locale.replace(/-[a-zA-Z]+$/, '');
+    }
+    else
+    {
+      this.locale = 'en-GB';
+    }
+  }
+
+  var d = this;
+  while(fmt.match(/%[cDhnrRtTxXzZ]/))
+  {
+    fmt = fmt.replace(/%([cDhnrRtTxXzZ])/g, function(m0, m1)
+        {
+          var f = Date.ext.aggregates[m1];
+          return (f == 'locale' ? Date.ext.locales[d.locale][m1] : f);
+        });
+  }
+
+  var str = fmt.replace(/%([aAbBCdegGHIjmMpPSuUVwWyY%])/g, function(m0, m1)
+      {
+        var f = Date.ext.formats[m1];
+        if(typeof(f) == 'string') {
+          return d[f]();
+        } else if(typeof(f) == 'function') {
+          return f.call(d, d);
+        } else if(typeof(f) == 'object' &amp;&amp; typeof(f[0]) == 'string') {
+          return Date.ext.util.xPad(d[f[0]](), f[1]);
+        } else {
+          return m1;
+        }
+      });
+  d=null;
+  return str;
+};
+
+
+function getNextDay(day, resetTime){
+  day = day.slice(0,3).toLowerCase();
+  var days = {
+    søn: 0, man: 1, tir: 2,
+    ons: 3, tor: 4, fre: 5, lør: 6,
+  };
+
+  var dayIndex = days[day];
+  if (dayIndex &lt; 0 || dayIndex &gt; 6) {
+    throw new Error('"' + day + '" is not a valid input.');
+  }
+
+  var returnDate = new Date();
+  var returnDay = returnDate.getDay();
+  if (dayIndex !== returnDay) {
+    returnDate.setDate(returnDate.getDate() + (dayIndex + (7 - returnDay)) % 7);
+  } else {
+    returnDate.setDate(returnDate.getDate() + 7);
+  }
+
+  if (resetTime) {
+    returnDate.setHours(0);
+    returnDate.setMinutes(0);
+    returnDate.setSeconds(0);
+    returnDate.setMilliseconds(0);
+  }
+  return returnDate;
+}</string>
+			<key>snippetType</key>
+			<integer>6</integer>
+			<key>uuidString</key>
+			<string>C5801D06-0A11-4822-8CFD-0068F508BD12</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>fre</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2015-05-31T12:35:54Z</date>
+			<key>label</key>
+			<string>fredag</string>
+			<key>modificationDate</key>
+			<date>2020-02-23T21:29:13Z</date>
+			<key>plainText</key>
+			<string>%snippet:javascriptDateFormat_da%
+
+%snippet:javascriptStrftime_da%
+
+var day = TextExpander.triggeringAbbreviation.replace(/^.*?\.(\w{3}).*?$/,'$1');
+var nextDay = getNextDay(day, true);
+TextExpander.appendOutput(nextDay.strftime(fmt));</string>
+			<key>snippetType</key>
+			<integer>4</integer>
+			<key>uuidString</key>
+			<string>E3536DA0-263F-4DEA-B816-1784232A1453</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>man</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2015-05-31T12:35:54Z</date>
+			<key>label</key>
+			<string>mandag</string>
+			<key>modificationDate</key>
+			<date>2020-02-23T21:29:17Z</date>
+			<key>plainText</key>
+			<string>%snippet:javascriptDateFormat_da%
+
+%snippet:javascriptStrftime_da%
+
+var day = TextExpander.triggeringAbbreviation.replace(/^.*?\.(\w{3}).*?$/,'$1');
+var nextDay = getNextDay(day, true);
+TextExpander.appendOutput(nextDay.strftime(fmt));
+
+
+</string>
+			<key>snippetType</key>
+			<integer>4</integer>
+			<key>uuidString</key>
+			<string>819467FC-703E-4A52-B703-7F5419695961</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>tor</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2015-05-31T12:35:54Z</date>
+			<key>label</key>
+			<string>torsdag</string>
+			<key>modificationDate</key>
+			<date>2020-02-23T21:29:21Z</date>
+			<key>plainText</key>
+			<string>%snippet:javascriptDateFormat_da%
+
+%snippet:javascriptStrftime_da%
+
+var day = TextExpander.triggeringAbbreviation.replace(/^.*?\.(\w{3}).*?$/,'$1');
+var nextDay = getNextDay(day, true);
+TextExpander.appendOutput(nextDay.strftime(fmt));
+
+
+</string>
+			<key>snippetType</key>
+			<integer>4</integer>
+			<key>uuidString</key>
+			<string>5EE38BDB-320D-40FA-9D70-49DE21E11FBD</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>tir</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2015-05-31T12:35:54Z</date>
+			<key>label</key>
+			<string>tirsdag</string>
+			<key>modificationDate</key>
+			<date>2020-02-23T21:29:29Z</date>
+			<key>plainText</key>
+			<string>%snippet:javascriptDateFormat_da%
+
+%snippet:javascriptStrftime_da%
+
+var day = TextExpander.triggeringAbbreviation.replace(/^.*?\.(\w{3}).*?$/,'$1');
+var nextDay = getNextDay(day, true);
+TextExpander.appendOutput(nextDay.strftime(fmt));
+
+
+</string>
+			<key>snippetType</key>
+			<integer>4</integer>
+			<key>uuidString</key>
+			<string>27187B1D-C37A-449A-A9B6-3B234E232CF0</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>ons</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2015-05-31T12:35:54Z</date>
+			<key>label</key>
+			<string>onsdag</string>
+			<key>modificationDate</key>
+			<date>2020-02-23T21:29:24Z</date>
+			<key>plainText</key>
+			<string>%snippet:javascriptDateFormat_da%
+
+%snippet:javascriptStrftime_da%
+
+var day = TextExpander.triggeringAbbreviation.replace(/^.*?\.(\w{3}).*?$/,'$1');
+var nextDay = getNextDay(day, true);
+TextExpander.appendOutput(nextDay.strftime(fmt));
+
+
+</string>
+			<key>snippetType</key>
+			<integer>4</integer>
+			<key>uuidString</key>
+			<string>2D33BBC5-D69A-4706-8A2A-DD6013235FA2</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>lør</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2015-05-31T12:35:54Z</date>
+			<key>label</key>
+			<string>lørdag</string>
+			<key>modificationDate</key>
+			<date>2020-02-23T21:29:08Z</date>
+			<key>plainText</key>
+			<string>%snippet:javascriptDateFormat_da%
+
+%snippet:javascriptStrftime_da%
+
+var day = TextExpander.triggeringAbbreviation.replace(/^.*?\.(\w{3}).*?$/,'$1');
+var nextDay = getNextDay(day, true);
+TextExpander.appendOutput(nextDay.strftime(fmt));
+
+
+</string>
+			<key>snippetType</key>
+			<integer>4</integer>
+			<key>uuidString</key>
+			<string>A2D26326-D795-4709-8FD6-49B207A5277C</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>søn</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2015-05-31T12:35:54Z</date>
+			<key>label</key>
+			<string>søndag</string>
+			<key>modificationDate</key>
+			<date>2020-02-23T22:32:56Z</date>
+			<key>plainText</key>
+			<string>%snippet:javascriptDateFormat_da%
+
+%snippet:javascriptStrftime_da%
+
+var day = TextExpander.triggeringAbbreviation.replace(/^.*?\.(\w{3}).*?$/,'$1');
+var nextDay = getNextDay(day, true);
+TextExpander.appendOutput(nextDay.strftime(fmt));
+
+
+</string>
+			<key>snippetType</key>
+			<integer>4</integer>
+			<key>uuidString</key>
+			<string>57BB6AFA-7FA6-4414-93AA-35DCBA8A0210</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>z</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2015-05-31T12:35:54Z</date>
+			<key>label</key>
+			<string>Valgfri dato format</string>
+			<key>modificationDate</key>
+			<date>2020-02-23T21:31:03Z</date>
+			<key>plainText</key>
+			<string>%filltop%
+
+%snippet:javascriptStrftime_da%
+
+var day = '%fillpopup:name=Ugedag:Søndag:Mandag:Tirsdag:default=Onsdag:Torsdag:Fredag:Lørdag%';
+var format_sel = '%fillpopup:name=Format:default=1) man d. 1. dec:2) 2015-12-01:3) Mandag, 1. Dec%';
+var formats = [ '%a d. %e. %b.', '%Y-%m-%d', '%A %e. %B' ];
+var fmt = formats[parseInt(format_sel[0],10) - 1];
+var nextDay = getNextDay(day, true);
+TextExpander.appendOutput(nextDay.strftime(fmt));
+
+</string>
+			<key>snippetType</key>
+			<integer>4</integer>
+			<key>uuidString</key>
+			<string>620FB895-0A5E-4025-86F1-2E586EF26869</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>javascriptDateFormat_da</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2019-05-09T21:09:41Z</date>
+			<key>extraInfo</key>
+			<dict>
+				<key>jsonStr</key>
+				<string>{"nodes":[{"e":"tx","tx":"// Linier der begynder med // er ikke i brug"},{"e":"br"},{"e":"br"},{"e":"tx","tx":"// søn d. 1. mar. "},{"e":"br"},{"e":"tx","tx":"var fmt = '%a d. %e. %b.';"},{"e":"br"},{"e":"br"},{"e":"tx","tx":"// søndag d. 1. marts"},{"e":"br"},{"e":"tx","tx":"// var fmt = '%A d. %e. %B';"},{"e":"br"},{"e":"br"},{"e":"tx","tx":"// søn 01/03"},{"e":"br"},{"e":"tx","tx":"// var fmt = '%a %d/%m';"}],"v":{"c":1,"m":1}}</string>
+			</dict>
+			<key>label</key>
+			<string>Dato format</string>
+			<key>modificationDate</key>
+			<date>2020-02-23T21:46:45Z</date>
+			<key>plainText</key>
+			<string>// Linier der begynder med // er ikke i brug
+
+// søn d. 1. mar. 
+var fmt = '%a d. %e. %b.';
+
+// søndag d. 1. marts
+// var fmt = '%A d. %e. %B';
+
+// søn 01/03
+// var fmt = '%a %d/%m';</string>
+			<key>snippetType</key>
+			<integer>6</integer>
+			<key>uuidString</key>
+			<string>B93128EA-F11A-40DD-8C80-3E0F410D47B6</string>
+		</dict>
+	</array>
+</dict>
+</plist>
